@@ -1,0 +1,90 @@
+/** Import Other Stylesheets **/
+/**
+ *
+ * Main styles
+ *
+ */
+body {
+  margin: 0px;
+  background: #212121; }
+  body #container .opaque {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+/**
+ * 
+ * Documentation styles
+ *
+ */
+.aptitude-docs {
+  height: auto !important;
+  min-height: 100%;
+  font-family: 'Roboto'; }
+  .aptitude-docs section {
+    background: transparent; }
+  .aptitude-docs h1 {
+    font-weight: 300 !important;
+    font-size: 2.6em; }
+  .aptitude-docs h2 {
+    font-weight: 400 !important;
+    font-size: 2.3em; }
+  .aptitude-docs h3 {
+    font-size: 2.1em; }
+  .aptitude-docs h4 {
+    font-weight: 300 !important;
+    font-size: 1.5em; }
+  .aptitude-docs #main {
+    margin-top: 50px;
+    max-width: 920px !important; }
+  .aptitude-docs .sidenav {
+    width: 200px;
+    position: fixed;
+    right: 0px;
+    top: 75px;
+    bottom: 0px;
+    overflow-y: auto; }
+  .aptitude-docs code {
+    background-color: transparent !important; }
+  .aptitude-docs nav {
+    padding: 0px;
+    overflow: visible; }
+  .aptitude-docs nav .nav-wrapper {
+    margin: auto;
+    width: 900px !important;
+    height: 64px; }
+  .aptitude-docs nav .brand-logo {
+    color: #fff !important;
+    font-weight: 300;
+    font-family: 'Roboto'; }
+  .aptitude-docs nav ul {
+    height: 64px; }
+  .aptitude-docs nav ul li {
+    height: 64px;
+    line-height: 64px;
+    margin: 0px; }
+  .aptitude-docs nav ul li a {
+    font-family: 'Roboto';
+    color: #fff !important; }
+  .aptitude-docs nav ul li a i {
+    margin-left: 4px !important;
+    font-size: 16px !important; }
+  .aptitude-docs nav ul li .dropdown-content {
+    height: auto !important;
+    margin-top: 10px !important;
+    width: auto !important; }
+  .aptitude-docs nav ul li .dropdown-content li {
+    height: 50px !important; }
+  .aptitude-docs nav ul li .dropdown-content li a {
+    color: #333 !important;
+    height: 50px !important;
+    line-height: 20px !important; }
+  .aptitude-docs .sidenav h1 {
+    font-weight: 400 !important;
+    font-size: 20px !important; }
+  .aptitude-docs .sidenav ul {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .aptitude-docs .dark-blue {
+    background: #272D4E !important; }
+  .aptitude-docs .dark-blue-text {
+    color: #272D4E; }

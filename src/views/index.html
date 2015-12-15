@@ -1,0 +1,40 @@
+<div class='page'>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  <nav style="background: #424242;">
+  <div class="nav-wrapper">
+      <a href="#!" class="brand-logo" style="font-family: 'Roboto'; font-weight: 300; margin-left: 20px; font-size: 1.3em;">CMDB</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <!-- Dropdown Trigger -->
+        <li>
+          <a class="dropdown-button" href="#!" data-activates="dropdown1">
+            Dropdown<i class="material-icons right">arrow_drop_down</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="container" style="width: 90%; margin-top: 30px;">
+    <div class="row">
+      <div class="col s2" ng-repeat="movie in movies" ng-if="movie.Poster != 'N/A'">
+        <div class="card z-depth-2" style="margin-top: 10px;">
+          <div class="card-image activator waves-effect waves-block waves-light"
+               style="height: 280px; width: 100%; background: url({{movie.Poster}}); background-size: cover;">
+          </div>
+          <div class="card-reveal opaque">
+            <span class="card-title grey-text text-darken-4" style="font-size: 14px; color: #fff !important;">
+              {{movie.Title}}<i class="material-icons right">close</i>
+            </span>
+            <p style="color: #fff !important; font-size: 13px;">{{movie.Plot | limitTo: 200}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

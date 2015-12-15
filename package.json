@@ -1,0 +1,38 @@
+{
+  "name": "flix",
+  "version": "0.0.1",
+  "description": "Watch movies on multiple devices from a locally hosted database.",
+  "author": {
+    "name": "Christian Gomez"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "frame": false
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "angular-jsdoc": "^0.3.8",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-sass": "^2.0.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uglifycss": "^1.0.4",
+    "main-bower-files": "^2.8.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "~1.11.1",
+    "gulp-shell": "~0.4.2",
+    "jshint-stylish": "~2.0.1",
+    "ink-docstrap": "~0.5.2",
+    "jsdoc": "^3.3.2"
+  }
+}
