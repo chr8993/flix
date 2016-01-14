@@ -38,12 +38,6 @@
           }
        ];
 
-	$scope.gui = require('nw.gui');
-	$scope.win = $scope.gui.Window.get();
-	$scope.win.maximize();
-	$scope.close = function() {
-		$scope.win.close();
-	};
     }
   );
 })();

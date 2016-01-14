@@ -16,11 +16,6 @@
 				controller: "moviesCtrl",
 				templateUrl: p + 'index.html'
 			}
-		).state("static", {
-				url: "",
-				controller: "moviesCtrl",
-				templateUrl: p + 'index.html'
-			}
 		);
 	});
 })();

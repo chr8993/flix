@@ -1,0 +1,14 @@
+/**
+ *
+ * Main styles
+ *
+ */
+body {
+	margin: 0px;
+	background: #212121;
+	#container {
+		.opaque {
+			background-color: rgba(0,0,0,.5);
+		}
+	}
+}
